@@ -105,7 +105,7 @@ const labelStyles = {
     textMargin: 'mr-14'
   }
 }
-export default function Label ({
+export function Label ({
   text = 'Hello everyone',
   collapsed = false,
   color = 'purple',

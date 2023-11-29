@@ -50,13 +50,3 @@ export const Small: Story = {
     label: 'Button'
   }
 }
-
-export function Medium (args) {
-  return <Button {...args} />
-}
-
-Medium.args = {
-  size: 'medium',
-  label: 'Button',
-  icon: '📚'
-}
